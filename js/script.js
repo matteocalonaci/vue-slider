@@ -50,6 +50,10 @@ createApp({
             } else {
                 this.activeImage = this.slides.length - 1
             }
+        },
+        mostraSlide(indice) {
+            console.log(indice)
+            return this.activeImage = indice
         }
 
     },
