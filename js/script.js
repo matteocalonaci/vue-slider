@@ -61,7 +61,6 @@ createApp({
 
     //MOMENTI DI BASE
     mounted() {
-        console.log(slides);
 
     }
 }).mount("#app")

@@ -32,11 +32,11 @@
                 <div class="thumbs">
                     <div @click="next()" class="prev"></div>
                     <div @click="prev()" class="next"></div>
-
                     <div class="thumb " :class="isImgVisible(i)" @click="mostraSlide(i)" v-for="slide, i in slides">
                         <img :src="slide.image" alt="" />
 
                     </div>
+
 
 
 
